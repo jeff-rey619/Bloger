@@ -17,22 +17,22 @@ function CategoryList() {
                     Style
                 </Link>
 
-                <Link href="/blog?cat=style" className={`${styles.category} ${styles.style}`}>
+                <Link href="/blog?cat=style" className={`${styles.category} ${styles.food}`}>
                     <Image src="/food.png" alt='' width={32} height={32} className={styles.image} />
                     Food
                 </Link>
                 
-                  <Link href="/blog?cat=style" className={`${styles.category} ${styles.style}`}>
+                  <Link href="/blog?cat=style" className={`${styles.category} ${styles.travel}`}>
                     <Image src="/travel.png" alt='' width={32} height={32} className={styles.image} />
                     Travel
                 </Link>
                 
-                  <Link href="/blog?cat=style" className={`${styles.category} ${styles.style}`}>
+                  <Link href="/blog?cat=style" className={`${styles.category} ${styles.Culture}`}>
                     <Image src="/culture.png" alt='' width={32} height={32} className={styles.image} />
                     Culture
                 </Link>
                 
-                  <Link href="/blog?cat=style" className={`${styles.category} ${styles.style}`}>
+                  <Link href="/blog?cat=style" className={`${styles.category} ${styles.Coding}`}>
                     <Image src="/coding.png" alt='' width={32} height={32} className={styles.image} />
                     Coding
                     </Link>
