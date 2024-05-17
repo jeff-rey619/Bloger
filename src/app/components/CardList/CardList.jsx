@@ -2,6 +2,7 @@ import React from 'react';
 import Pagination from '../Pagination/Pagination';
 import styles from "./cardlist.module.css";
 import Image from 'next/image';
+import Card from '../card/Card';
 
 
 function CardList() {
@@ -11,12 +12,11 @@ function CardList() {
 Recent post
             </h1>
             <div className={styles.posts}>
-                <div className={styles.post}>
-                    <div className={styles.imageContainer}>
-                        <Image src="/p1.jpeg" alt="" width={32} height={32} /> 
-                    </div>
-                     <div className={styles.textContainer}></div>
-                 </div>
+                <Card />
+                <Card />
+                <Card />
+                <Card />
+                <Card/>
             </div>
             <Pagination /> 
         </div>
