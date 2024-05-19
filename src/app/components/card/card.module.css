@@ -30,6 +30,7 @@
 .category{
   color: crimson;
   font-weight: 500;
+  margin-left: 4px;
 }
 
 
@@ -43,4 +44,13 @@
   border-bottom: 1px solid crimson;
   width: max-content;
   padding: 2px 0 ;
+    color: var(--textColor);
+}
+
+
+.title {
+
+  color: var(--textColor);
+  font-size: 20px;
+  /* font-weight: 500; */
 }

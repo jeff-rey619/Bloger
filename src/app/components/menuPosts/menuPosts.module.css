@@ -48,6 +48,9 @@ flex-direction: column;
 gap: 5px;
 }
 
+.username{
+      color: var(--softTextColor);
+}
 .posttitle{
       font-size: 18px;
       font-weight: 500;
@@ -61,21 +64,21 @@ color: white;
 width: max-content;
 }
 
-.category.travel{
-background-color: rgb(221, 154, 30);
-}
+    .category.travel{
+    background-color: rgb(221, 154, 30);
+    }
 
-.category.culture{
-background-color: rgb(82, 186, 44);
-}
+    .category.culture{
+    background-color: rgb(82, 186, 44);
+    }
 
-.category.food{
-background-color: rgb(209, 164, 238);
-}
+    .category.food{
+    background-color: rgb(209, 164, 238);
+    }
 
-.category.fashion{
-background-color: rgb(148, 218, 220);
-}
+    .category.fashion{
+    background-color: rgb(148, 218, 220);
+    }
 .detail{
       font-size: 12px;
 

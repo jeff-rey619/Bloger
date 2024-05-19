@@ -12,11 +12,14 @@ function Card(props) {
                     </div>
             <div className={styles.textContainer}>
                 <div className={styles.detail}>
-                    <span className={styles.date}>11.8.2024</span>
-                     <span className={styles.category}>Culture</span>
+                    <span className={styles.date}>11.8.2024 </span>
+                     <span className={styles.category}> - Culture</span>
                 </div>
-               <Link href='/'>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing 
+                <Link className={styles.title} href='/'>
+                    <h1>
+ Lorem ipsum dolor, sit amet consectetur adipisicing 
+                    </h1>
+                   
             </Link>
                 <p className={styles.desc}>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt omnis, soluta ratione et tempore odit ex rem quibusdam earum a maxime ad adipisci officiis maiores ut totam culpa, distinctio iusto!
