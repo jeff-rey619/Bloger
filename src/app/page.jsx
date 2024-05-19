@@ -11,7 +11,7 @@ export default function Home() {
     <div className={styles.container}>
       <Featured />
       <CategoryList />
-      <div className={styles.container}>
+      <div className={styles.containers}>
         <CardList />
         <Menu />
 
