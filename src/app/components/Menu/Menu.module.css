@@ -87,3 +87,9 @@ background-color: rgb(148, 218, 220);
 .date{
 color: gray;
 }
+
+@media screen and (max-width:1280px){
+.container {
+    display: none;
+  }
+}

@@ -54,13 +54,13 @@
 }
 
 
-@media screen and(max-width:1024){
+@media screen and (max-width:1024){
      .links{
         gap: 50px;
      }
 }
 
-@media screen and(max-width:768){
+@media screen and (max-width:768){
      .container{
         flex-direction: column;
         gap: 50px;
@@ -72,7 +72,7 @@
 }
 
 
-@media screen and(max-width:640){
+@media screen and (max-width:640){
     
      .links{
       font-size: 14px;

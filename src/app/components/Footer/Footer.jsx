@@ -26,18 +26,10 @@ function Footer() {
                 </div>
             </div>
             <div className={styles.links}>
-              
-           
-         
-
-         
-
-
-            
 
                 <div className={styles.list}>
                     <span className={styles.listTitle}>
-Links
+                    Links
                     </span>
 
                     <Link href="/">
